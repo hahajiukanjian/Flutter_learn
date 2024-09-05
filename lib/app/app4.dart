@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/app/components/app_floating_action_button.dart';
+import 'package:flutter_application_1/app/components/app_page_aside.dart';
 import 'package:flutter_application_1/app/components/app_page_bottom.dart';
 import 'package:flutter_application_1/app/components/app_page_header.dart';
 import 'package:flutter_application_1/app/components/app_page_main.dart';
@@ -43,6 +44,7 @@ class _AppState extends State<App> {
               onTap: onTapAppBottomNavigationBarItem,
           ),
           floatingActionButton: AppFloatingActionButton(),
+          drawer: AppPageAside(),
         ),
       ),
       // home: Center(
